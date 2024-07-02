@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .roww{
+    height: 100vh;
+  }
+  .title{
+    padding: 40px 20px;
+    text-decoration: none;
+    color: #db1606;
+  }
+  .title div{
+    margin: 0 5px;
+  }
+  
+  .sidebar li{
+    background-color: white;
+    border: 1px solid white;
+    padding: 5px;
+    margin: 0 5px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .sidebar li:hover{
+    border: 1px solid white;
+    background-color: #db1606;
+    color: whitesmoke;
+    
+  }
+  
+  .sidebar li i{
+    margin: 0 5px;
+  }
+  .sidebar li span{
+    margin: 0 5px;
+  }
+  .userHeading{
+    padding: 25px;
+    /* text-align: center; */
+  }
+  .userHeading .logoutDiv i{
+    padding: 0 5px;
+    font-size: 20px;
+  }
+  .userHeading .logoutDiv span{
+    padding: 0 5px;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .shadow-lgg{
+    /* #ae2313  */
+    box-shadow:0 1rem 3rem rgba(174, 35, 19, 1) !important;
+  }
+  .mainCard{
+    /* //#7f3335 */
+    background-color: #cbbaba; 
+    padding: 20px;
+    margin-top: 50px;
+    /* border-radius: 5px; */
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /* border: 2px solid black; */
+    border-bottom-color: black;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+  }
+  .cardTitle{
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .cardTitle .iconDiv{
+    color: #db1606;
+  }
+  .userCountDiv{
+    /* background-color: #db1606; */
+    padding: 20px 0px 0px 20px; 
+    /* margin: 0px 25px; */
+  }
+  

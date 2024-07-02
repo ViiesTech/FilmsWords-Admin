@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .roww{
+    height: 100vh;
+  }
+  .title{
+    padding: 40px 20px;
+    text-decoration: none;
+    color: #db1606;
+  }
+  .title div{
+    margin: 0 5px;
+  }
+  
+  .sidebar li{
+    background-color: white;
+    border: 1px solid white;
+    padding: 5px;
+    margin: 0 5px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .sidebar li:hover{
+    border: 1px solid white;
+    background-color: #db1606;
+    color: whitesmoke;
+    
+  }
+  
+  .sidebar li i{
+    margin: 0 5px;
+  }
+  .sidebar li span{
+    margin: 0 5px;
+  }
+
+  .formdiv h3{
+    padding: 25px;
+  }
+  .formdiv form{
+    /* background-color: black; */
+    padding:40px 100px;
+  }
+  .formdiv form button{
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 2px solid #db1606;
+    background-color: #db1606;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 500;
+    transition: transform 0.3s, box-shadow 0.3s
+  }
+  .formdiv form button:hover{
+    color: #db1606;
+    background-color: whitesmoke;
+    transform: rotate(-10deg) scale(1.1);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  }
