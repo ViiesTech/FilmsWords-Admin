@@ -84,7 +84,7 @@ const Movie = () => {
         formData.append('movieDescription', movieDescription);
 
         try {
-            const response = await axios.post('http://13.51.197.205:3020/api/admin/add-movie', formData, {
+            const response = await axios.post('https://13.51.197.205:3020/api/admin/add-movie', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },
