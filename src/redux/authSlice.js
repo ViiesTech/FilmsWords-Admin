@@ -75,7 +75,7 @@ const initialState = {
 };
 
 export const loginUser = createAsyncThunk('LoginUser', async (body) => {
-    const res = await axios.post("https://13.51.197.205:3020/api/user/login", body, {
+    const res = await axios.post("http://13.51.197.205:3020/api/user/login", body, {
         headers: {
             'Content-Type': "application/json",
         }
